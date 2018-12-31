@@ -49,10 +49,12 @@ export class AppComponent {
 
     function photoReplace (dataset) {
       dataset.map((element) => {
-        if (element.photo_url == undefined){
-          element.photo_url = "No photo available";
+        if (element.photo_url == undefined && element.senator_name === "Cindy Hyde-Smith") {
+          element.photo_url = "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cindy_Hyde-Smith_official_photo.jpg"
+        } else if (element.photo_url == undefined && element.senator_name === "Jon Kyl") {
+          element.photo_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Jon_Kyl%2C_official_109th_Congress_photo.jpg/480px-Jon_Kyl%2C_official_109th_Congress_photo.jpg"
         } else {
-          element.photo_url = element.photo_url;
+          element.photo_url = element.photo_url
         }
       })
     }
@@ -78,7 +80,7 @@ export class AppComponent {
       this.propubService.getPropublica().subscribe(
           data => {
             this.members = data.results[0].members;
-
+            console.log(this.members);
             let senatorPhotos = senatorData.default;
             console.log(senatorPhotos);
             senatorPhotos.map((names) => {

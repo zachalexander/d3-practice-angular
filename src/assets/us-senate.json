@@ -213,7 +213,7 @@
         "facebook_url": "https://www.facebook.com/RichardShelby",
         "twitter_handle": "SenShelby",
         "twitter_url": "https://twitter.com/SenShelby",
-        "photo_url": "//d3-chart-practice/src/app/senator-photos/richard-shelby.jpg"
+        "photo_url": "https://cdn.civil.services/us-senate/headshots/512x512/richard-shelby.jpg"
     },
     {
         "state_name": "Arkansas",
@@ -483,7 +483,7 @@
         "facebook_url": "https://www.facebook.com/SenatorFeinstein",
         "twitter_handle": "SenFeinstein",
         "twitter_url": "https://twitter.com/SenFeinstein",
-        "photo_url": "./dianne-feinstein.jpg"
+        "photo_url": "https://cdn.civil.services/us-senate/headshots/512x512/dianne-feinstein.jpg"
     },
     {
         "state_name": "California",
@@ -5398,5 +5398,13 @@
         "twitter_handle": "SenatorEnzi",
         "twitter_url": "https://twitter.com/SenatorEnzi",
         "photo_url": "https://cdn.civil.services/us-senate/headshots/512x512/michael-enzi.jpg"
+    },
+    {
+        "name": "Jon Kyl",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Jon_Kyl%2C_official_109th_Congress_photo.jpg/480px-Jon_Kyl%2C_official_109th_Congress_photo.jpg"
+    },
+    {
+        "name": "Cindy Hyde-Smith",
+        "photo_url": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Cindy_Hyde-Smith_official_photo.jpg"
     }
 ]
